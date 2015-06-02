@@ -1,0 +1,31 @@
+\documentclass[12pt, accentcolor=tud1b, bigchapter, nochapterpage]{tudreport}
+\usepackage{ngerman}
+\title{\textbf{P06 - Projektdefinition}}
+\subtitle{Gregor He\ss \\ Tobias Lippert}
+\author{Gregor He\ss \\
+		Tobias Lippert}
+\institution{Serious Games Praktikum\\
+Sommersemester 2015}
+\date{}
+\begin{document}
+
+\maketitle
+
+\chapter*{Must-Haves}
+\section*{Sensor-Interface}
+Das Interface kommuniziert mithilfe von Tools wie \emph{hcitool} und \emph{gatttool} mit dem \emph{SensorTag}. Es baut zun\"achst eine Verbindung zum \emph{SensorTag} auf, aktiviert die Sensoren und liest die Daten kontinuierlich aus. Der gesch\"atzte Aufwand f\"ur die Implementierung betr\"agt vorraussichtlich 10\% der gesamten Bearbeitungszeit.
+
+\section*{Signal-Converter}
+Der Converter dient dazu, die im Rohformat eingelesenen Daten in ein f\"ur den Menschen verst\"andliches Format zu bringen. Hierzu werden die entsprechenden Algorithmen aus dem \emph{SensorTag UserGuide} verwendet. Zus\"atzlich filtert der Converter die Daten, falls diese unbrauchbar, irrelevant oder Ergebnis einer erkannten Fehlmessung sind. F\"ur den Aufwand sch\"atzen wir 15\% der Zeit zu ben\"otigen.
+
+\section*{Logger}
+Diesee Komponente speichert die vom Converter erstellten Daten persistent, damit diese auch zu einem sp\"ateren Zeitpunkt ausgewertet werden k\"onnen. Das wird im sp\"ateren Verlauf vor allem zum Testen des Analyzers verwendet. Der Logger wird etwa 5\% der Zeit beanspruchen.
+
+\section*{Analyzer}
+Der Analyzer bekommt seine Daten direkt vom Signal-Converter. Seine Aufgabe ist es, die eingehenden Daten zu verarbeiten und daraus einen Gameinput zu generieren. Der Output des Analyzers ist dabei abh\"angig vom Zielspiel. \\
+Geht es in dem Spiel beispielsweise darum, m\"oglichst viele Klimmz\"uge zu machen, gibt der Analyzer die Anzahl der gemachten Klimmz\"uge und Teilklimmz\"uge. Die Granulierung der Teilklimmz\"uge soll dabei m\"oglichst genau sein. Die Funktion des Analyzers sollte auf andere Problemstellungen \"ahnlicher Art \"ubertragbar sein. Da der Analyzer der Kern des Projekts ist, wird ihm die restliche verbleibende Zeit zugeschrieben.
+
+\chapter*{Nice-To-Haves}
+\section*{Game-Play-Example}
+Das oben eingef\"uhrte Klimmzugbeispiel soll mit einem einfachen Interface implementiert werden, um die Funktionsweise des Inputmanagers zu verdeutlichen.
+\end{document}

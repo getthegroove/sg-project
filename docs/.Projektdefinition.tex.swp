@@ -1,0 +1,18 @@
+\documentclass[12pt, accentcolor=tud1b, bigchapter, nochapterpage]{tudreport}
+\usepackage{ngerman}
+\title{\textbf{P06 - Projektdefinition}}
+\subtitle{Gregor He\ss \\ Tobias Lippert}
+\author{Gregor He\ss \\
+		Tobias Lippert}
+\institution{Serious Games Praktikum\\
+Sommersemester 2015}
+\begin{document}
+
+\maketitle
+
+\chapter*{Projektidee}
+Inhalt dieses Praktikums ist die Implementierung eines Inputmanagers f\"ur sensorbasierte Exergames. Das Hauptaugemerk liegt hierbei auf der m\"oglichst genauen Messung, Analyse und Auswertung der Sensordaten. Zus\"atzlich soll der Inputmanager die Daten f\"ur weitere Analysezwecke aufzeichnen und ausgeben k\"onnen. \\ \\
+Die feinere Auswertung der Sensordaten erlaubt eine exaktere Bestimmung des Spielfortschrittes im Vergleich zu gegenw\"artigen Methoden. Die Motivation des Spielers wird unter anderem durch regelm\"a\ss ige Erfolgserlebnisse gef\"ordert. Durch eine feinere Messung ist im Gegensatz zu gr\"oberen Rastern der Fortschritt des Spielers besser zu erkennen. Die Frustration durch nicht feststellbare Ergebnisse nimmt dadurch ab und der Spa\ss{} am Spiel bleibt l\"anger erhalten. Zudem wird es Gamedesignern erleichtert, Spiele besser auf die Spieler einzustellen.\\ \\
+F\"ur die Realisierung verwenden wir exemplarisch einen \emph{SensorTag} von \textit{Texas Instruments} der \"uber \textit{BlueTooth 4.0 LE} angesprochen und ausgelesen wird. \\ Als Programmiersprache dient uns \textit{Python}, welche wir unter \textit{Ubuntu} verwenden. Zu Demonstrationszwecken soll zus\"atzlich eine Anwendung enstehen, in welcher die Ergebnisse des Praktikums genutzt werden. 
+
+\end{document}
