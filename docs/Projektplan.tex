@@ -1,0 +1,44 @@
+\documentclass[12pt, accentcolor=tud1b, bigchapter, nochapterpage]{tudreport}
+
+\usepackage{ngerman}
+\usepackage{colortbl}
+\usepackage{lscape}
+\usepackage{multirow}
+\title{\textbf{P06 - Projektplan}}
+\subtitle{Gregor He\ss \\ Tobias Lippert}
+\author{Gregor He\ss \\
+		Tobias Lippert}
+\institution{Serious Games Praktikum\\
+Sommersemester 2015}
+\begin{document}
+
+\maketitle
+\begin{landscape}
+\chapter*{}
+\begin{tabular}{|l|c|c|c|l|l|}
+\hline
+\textbf{Teilobjekte und Arbeitspakete} & \textbf{Summe } & \multicolumn{2}{c|} {\textbf{Wer}} & Deliverables & Ziele\\
+& (Personentage)& \textbf{Gregor He\ss} & \textbf{Tobias Lippert} & &\\ \hline
+\rowcolor{tud4a} \textbf{1. Recherche} & 13 & 6,5 & 6,5 & &\\ \cline{1-4}
+\rowcolor{tud4a}1.1 \"Ahnliche Forschungen & 6 & 3 & 3 & &\\ \cline{1-4}
+\rowcolor{tud4a}1.2 Werkzeuge und Hilfsmittel & 2 & 1 & 1 & &\\ \cline{1-4}
+\rowcolor{tud4a}1.3 R\"ucksprache mit Betreuer & 5 & 2,5 & 2,5 &\multirow{-4}{3cm}{\centering{---}} & \multirow{-4}{4cm}{Notwendiges Wissen zur Umsetzung des Projektes} \\ \hline
+
+\textbf{2.Konzept} & 7 & 3,5 & 3,5 & & \\ \cline{1-4}
+2.1 Grober Plan & 3 & 1,5 & 1,5 & & \\ \cline{1-4}
+2.2 Umsetzung planen & 4 & 2 & 2 & \multirow{-3}{3cm}{\centering{---}}&\multirow{-3}{4cm}{Klare Struktur des Ablaufs finden} \\ \hline
+
+\rowcolor{tud4a}\textbf{3.Sensordaten} & 30 & 15 & 15 & & \\ \cline{1-4}
+\rowcolor{tud4a}3.1 Versuchsaufbau & 5 & 2,5 & 2,5 & & \\ \cline{1-4}
+\rowcolor{tud4a}3.2 Testdaten sammeln & 10 & 5 & 5 & & \\ \cline{1-4}
+\rowcolor{tud4a}3.3 Anwendung von KI-Algorithmen & 15 & 7,5 & 7,5 &\multirow{-4}{3cm}{\emph{DecisionTrees} und Trainingsdaten} &\multirow{-4}{4cm}{\emph{DecisionTrees} erstellen zur Live-Analyse von Daten} \\ \hline
+
+\textbf{4. Entwicklung \emph{Sensor-Interface}} & 6 & 3 & 3 & \emph{Python}-Klasse & siehe Projektdefinition \\ \hline
+\rowcolor{tud4a} \textbf{5. Entwicklung \emph{Signal-Converter}} & 6 & 3 & 3 & \emph{Python}-Klasse & siehe Projektdefinition \\ \hline
+\textbf{6. Entwicklung \emph{Logger}} & 4 & 2 & 2 & \emph{Python}-Klasse & \\ \hline
+\rowcolor{tud4a} \textbf{7. Entwicklung \emph{Analyzer}} & 40 & 20 & 20 & \emph{Python}-Klasse & siehe Projektdefinition \\ \hline
+\rowcolor{tud4a} \textbf{8. Entwicklung \emph{App-Interface}} & 20 & 10 & 10 & \emph{Android}-App & Live-Demo des Projekts \\ \hline
+\end{tabular}
+\end{landscape}
+
+\end{document}
