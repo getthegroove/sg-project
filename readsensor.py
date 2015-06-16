@@ -30,7 +30,7 @@ print('Listening on port ', port)
 UDPSocket.bind(serverAddress)
 t=0
 try:
-	while t <= 10000:
+	while t <= 120000:
 		[data,attr] = UDPSocket.recvfrom(bufferSize)
 		plotSensorsData(data.decode("utf-8"),t,file)
 		t = t+delta_t

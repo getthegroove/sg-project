@@ -37,10 +37,12 @@ with open(sys.argv[1]) as csvfile:
              standardabweichung.append(std(templist,average))
              templist = []
 
+print("Mittelwert:\n")
 for x in mittelwerte:
 	print (x)
 print("\n")
 
+print("Standardabweichung:\n")
 for x in standardabweichung:
         print(x)
 
