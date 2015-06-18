@@ -3,6 +3,7 @@ from sklearn.externals.six import StringIO
 import sys
 import csv
 import numpy as np
+import pydot 
 
 files = []
 Y = []
@@ -23,3 +24,8 @@ clf = clf.fit(files, Y)
 
 with open("iris.dot", "w") as f:
     f = tree.export_graphviz(clf, out_file=f)
+
+dot_data = StringIO() 
+tree.export_graphviz(clf, out_file=dot_data) 
+graph = pydot.graph_from_dot_data(dot_data.getvalue()) 
+graph.write_pdf("iris.pdf")
