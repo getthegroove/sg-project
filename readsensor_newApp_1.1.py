@@ -16,7 +16,7 @@ s.bind((host, port))
 t = time()*1000
 
 
-while (((time()*1000)-t)<5000):
+while (((time()*1000)-t)<20000):
  try:
   message, address = s.recvfrom(8192)
   data = str(message).split(',')

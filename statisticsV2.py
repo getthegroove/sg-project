@@ -22,9 +22,10 @@ def std(values,average):
 
 
 window_size = int(sys.argv[2])
+filename = sys.argv[3]
+file = open(filename,"a")
 templist = []
-mittelwerte = []
-standardabweichung = []
+werte = []
 rowlist = []
 
 # Werte des CSV in eine Liste packen
@@ -49,9 +50,8 @@ while(i < len(rowlist)):
      count += 1
      if(t >= int(rowlist[istart][0])+window_size):
        average = m(templist)
-       # Werte fuer Zeitfenster mit Start- und Endzeit in Ergebnislisten eintragen
-       mittelwerte.append([rowlist[istart][0]]+[rowlist[i][0]]+average)
-       standardabweichung.append([rowlist[istart][0]]+[rowlist[i][0]]+std(templist,average))
+       # Werte fuer Zeitfenster mit Start- und Endzeit in Ergebnisliste eintragen
+       werte.append([int(rowlist[istart][0])]+[int(rowlist[i][0])]+average+std(templist,average))
        templist = []
        i -= int(count/2)
        istart = i
@@ -60,12 +60,13 @@ while(i < len(rowlist)):
        
 
 
-#print(rowlist)
-print("Mittelwert:\n")
-for x in mittelwerte:
-	print (x)
+
+print("Werte:\n")
+for x in werte:
+        print (x)
+        file.write(str(x[0])+","+str(x[1])+","+str(x[2])+","+str(x[3])+","+str(x[4])+","+str(x[5])+","+str(x[6])+","+str(x[7])+"\n")
 print("\n")
 
-print("Standardabweichung:\n")
-for x in standardabweichung:
-        print(x)
+file.close()
+
+
