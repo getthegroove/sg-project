@@ -10,9 +10,9 @@ features = []
 #Klassen-Liste fuer den Baum
 classes = []
 #Prozessierte "Aufwaertsbewegungen"
-up = ["processed_Dennis_up1.csv", "processed_Matze_up1.csv", "processed_Jacob_up1.csv", "processed_Dennis_up2.csv", "processed_Matze_up2.csv", "Jacob_up2.csv"]
+up = ["Dennis_up1_processed.csv", "Matze_up1_processed.csv", "Jacob_up1_processed.csv", "Dennis_up2_processed.csv", "Matze_up2_processed.csv", "Jacob_up2_processed.csv"]
 #Prozessierte "Abwaertsbewegung"
-down = ["processed_Dennis_down1.csv", "processed_Matze_down1.csv", "processed_Jacob_down1.csv", "processed_Matze_down2.csv", "processed_Jacob_down2.csv"]
+down = ["Dennis_down1_processed.csv", "Matze_down1_processed.csv", "Jacob_down1_processed.csv", "Matze_down2_processed.csv", "Jacob_down2_processed.csv"]
 #Das erste Input-Argument bestimmt den Baumname 
 treename = sys.argv[1]
 #Die Files fuer die Aufwaertsbewegung nacheinander einlesen
