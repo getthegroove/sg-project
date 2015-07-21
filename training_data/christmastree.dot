@@ -1,0 +1,174 @@
+digraph Tree {
+0 [label="X[2] <= -1.8742\ngini = 0.743668639053\nsamples = 65", shape="box"] ;
+1 [label="X[6] <= 0.9347\ngini = 0.406574394464\nsamples = 34", shape="box"] ;
+0 -> 1 ;
+2 [label="X[7] <= 7.5743\ngini = 0.198979591837\nsamples = 28", shape="box"] ;
+1 -> 2 ;
+3 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  1.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+2 -> 3 ;
+4 [label="X[1] <= 10.5767\ngini = 0.139917695473\nsamples = 27", shape="box"] ;
+2 -> 4 ;
+5 [label="gini = 0.0000\nsamples = 23\nvalue = [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.
+   0.   0.   0.   0.   0.   0.   0.   0.   0.  23.]", shape="box"] ;
+4 -> 5 ;
+6 [label="X[0] <= 0.3747\ngini = 0.625\nsamples = 4", shape="box"] ;
+4 -> 6 ;
+7 [label="gini = 0.0000\nsamples = 2\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  2.]", shape="box"] ;
+6 -> 7 ;
+8 [label="X[2] <= -3.1524\ngini = 0.5\nsamples = 2", shape="box"] ;
+6 -> 8 ;
+9 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+8 -> 9 ;
+10 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+8 -> 10 ;
+11 [label="X[2] <= -3.7215\ngini = 0.833333333333\nsamples = 6", shape="box"] ;
+1 -> 11 ;
+12 [label="X[3] <= 0.2537\ngini = 0.75\nsamples = 4", shape="box"] ;
+11 -> 12 ;
+13 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+12 -> 13 ;
+14 [label="X[1] <= 8.3506\ngini = 0.666666666667\nsamples = 3", shape="box"] ;
+12 -> 14 ;
+15 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+14 -> 15 ;
+16 [label="X[0] <= 1.0885\ngini = 0.5\nsamples = 2", shape="box"] ;
+14 -> 16 ;
+17 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+16 -> 17 ;
+18 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+16 -> 18 ;
+19 [label="X[0] <= 1.0789\ngini = 0.5\nsamples = 2", shape="box"] ;
+11 -> 19 ;
+20 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  1.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+19 -> 20 ;
+21 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  1.]", shape="box"] ;
+19 -> 21 ;
+22 [label="X[3] <= 0.3929\ngini = 0.91779396462\nsamples = 31", shape="box"] ;
+0 -> 22 ;
+23 [label="X[5] <= 0.4712\ngini = 0.87\nsamples = 20", shape="box"] ;
+22 -> 23 ;
+24 [label="X[1] <= 9.6387\ngini = 0.921875\nsamples = 16", shape="box"] ;
+23 -> 24 ;
+25 [label="X[1] <= 4.1199\ngini = 0.91124260355\nsamples = 13", shape="box"] ;
+24 -> 25 ;
+26 [label="X[9] <= -5.3977\ngini = 0.888888888889\nsamples = 9", shape="box"] ;
+25 -> 26 ;
+27 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  1.  0.  0.  0.]", shape="box"] ;
+26 -> 27 ;
+28 [label="X[7] <= 0.0027\ngini = 0.875\nsamples = 8", shape="box"] ;
+26 -> 28 ;
+29 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+28 -> 29 ;
+30 [label="X[11] <= 0.1342\ngini = 0.857142857143\nsamples = 7", shape="box"] ;
+28 -> 30 ;
+31 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  1.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+30 -> 31 ;
+32 [label="X[8] <= 8.8786\ngini = 0.833333333333\nsamples = 6", shape="box"] ;
+30 -> 32 ;
+33 [label="X[5] <= 0.2626\ngini = 0.75\nsamples = 4", shape="box"] ;
+32 -> 33 ;
+34 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  1.  0.  0.  0.  0.  0.]", shape="box"] ;
+33 -> 34 ;
+35 [label="X[4] <= 0.3056\ngini = 0.666666666667\nsamples = 3", shape="box"] ;
+33 -> 35 ;
+36 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  1.  0.  0.]", shape="box"] ;
+35 -> 36 ;
+37 [label="X[4] <= 0.7845\ngini = 0.5\nsamples = 2", shape="box"] ;
+35 -> 37 ;
+38 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  1.  0.]", shape="box"] ;
+37 -> 38 ;
+39 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  1.  0.  0.  0.  0.]", shape="box"] ;
+37 -> 39 ;
+40 [label="X[7] <= 0.4358\ngini = 0.5\nsamples = 2", shape="box"] ;
+32 -> 40 ;
+41 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+40 -> 41 ;
+42 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+40 -> 42 ;
+43 [label="X[6] <= 0.0136\ngini = 0.625\nsamples = 4", shape="box"] ;
+25 -> 43 ;
+44 [label="X[7] <= 9.1777\ngini = 0.5\nsamples = 2", shape="box"] ;
+43 -> 44 ;
+45 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+44 -> 45 ;
+46 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+44 -> 46 ;
+47 [label="gini = 0.0000\nsamples = 2\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  2.]", shape="box"] ;
+43 -> 47 ;
+48 [label="X[9] <= 0.1424\ngini = 0.444444444444\nsamples = 3", shape="box"] ;
+24 -> 48 ;
+49 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+48 -> 49 ;
+50 [label="gini = 0.0000\nsamples = 2\nvalue = [ 0.  0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+48 -> 50 ;
+51 [label="gini = 0.0000\nsamples = 4\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  4.]", shape="box"] ;
+23 -> 51 ;
+52 [label="X[0] <= -0.2737\ngini = 0.842975206612\nsamples = 11", shape="box"] ;
+22 -> 52 ;
+53 [label="X[5] <= 0.4425\ngini = 0.8\nsamples = 5", shape="box"] ;
+52 -> 53 ;
+54 [label="X[11] <= 0.2811\ngini = 0.666666666667\nsamples = 3", shape="box"] ;
+53 -> 54 ;
+55 [label="gini = 0.0000\nsamples = 1\nvalue = [ 1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+54 -> 55 ;
+56 [label="X[6] <= -0.6710\ngini = 0.5\nsamples = 2", shape="box"] ;
+54 -> 56 ;
+57 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+56 -> 57 ;
+58 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+56 -> 58 ;
+59 [label="X[9] <= 0.8784\ngini = 0.5\nsamples = 2", shape="box"] ;
+53 -> 59 ;
+60 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+59 -> 60 ;
+61 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+59 -> 61 ;
+62 [label="X[1] <= 12.8290\ngini = 0.611111111111\nsamples = 6", shape="box"] ;
+52 -> 62 ;
+63 [label="X[1] <= 10.8298\ngini = 0.48\nsamples = 5", shape="box"] ;
+62 -> 63 ;
+64 [label="X[3] <= 0.4963\ngini = 0.444444444444\nsamples = 3", shape="box"] ;
+63 -> 64 ;
+65 [label="gini = 0.0000\nsamples = 2\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+64 -> 65 ;
+66 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  1.  0.]", shape="box"] ;
+64 -> 66 ;
+67 [label="gini = 0.0000\nsamples = 2\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  2.  0.]", shape="box"] ;
+63 -> 67 ;
+68 [label="gini = 0.0000\nsamples = 1\nvalue = [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.]", shape="box"] ;
+62 -> 68 ;
+}
